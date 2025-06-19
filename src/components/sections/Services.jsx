@@ -10,22 +10,22 @@ import volumeEgipcioImg from '../../assets/images/volumeEgipcio.jpg';
 const services = [
   {
     name: 'Volume Brasileiro',
-    description: 'Técnica que aplica um fio sintético em cada cílio natural, proporcionando um olhar naturalmente volumoso e alongado.',
+    description: 'Técnica exclusiva que combina volume e naturalidade, criando um efeito de cílios mais encorpados e curvados, ideal para um olhar marcante e sofisticado.',
     image: volumeBrasileiroImg
   },
   {
     name: 'Volume Loma',
-    description: 'Criação de leques de fios ultrafinos aplicados em cada cílio natural, para um volume intenso e dramático.',
+    description: 'Técnica exclusiva, criando um efeito de volume personalizado e sofisticado, unindo leveza a um mapping estratégico para realçar o olhar de forma única e marcante.',
     image: volumeLomaImg
   },
   {
     name: 'Fio a Fio',
-    description: 'Combinação das técnicas clássica e volume russo, ideal para quem busca um volume intermediário e um olhar marcante.',
+    description: 'Técnica clássica e versátil de aplicação fio a fio, para um resultado sutil e elegante. Realça o olhar com volume na medida certa e beleza natural.',
     image: fioAFioImg
   },
   {
     name: 'Volume Egipcío',
-    description: 'Técnica avançada com leques maiores e mais cheios, para um efeito de volume máximo e glamour.',
+    description: 'Técnica avançada com leques densos e cheios, para um efeito de volume máximo e glamour. Proporciona um olhar exuberante e impactante.',
     image: volumeEgipcioImg
   },
 ];

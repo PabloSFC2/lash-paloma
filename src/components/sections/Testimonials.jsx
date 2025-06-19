@@ -1,30 +1,35 @@
 import React from 'react';
 import SectionTitle from '../ui/SectionTitle';
 
+import cliente from '../../assets/images/cliente.jpg';
+import cliente2 from '../../assets/images/cliente2.jpg';
+import cliente3 from '../../assets/images/cliente3.jpg';
+import cliente4 from '../../assets/images/cliente4.jpg';
+
 const testimonials = [
   {
     name: 'Ana Carolina',
     role: 'Cliente',
-    quote: 'As extensões de cílios da [Nome da Lash Designer] são simplesmente perfeitas! O trabalho é super delicado e durou muito. Recomendo de olhos fechados!',
-    avatar: 'https://via.placeholder.com/80?text=AC' // Substitua por avatares reais
+    quote: 'As extensões de cílios da Paloma são simplesmente perfeitas! O trabalho é super delicado e durou muito. Recomendo de olhos fechados!',
+    avatar: cliente // Substitua por avatares reais
   },
   {
     name: 'Juliana Silva',
-    role: 'Aluna (Curso Clássico)',
-    quote: 'O curso superou minhas expectativas! A [Nome da Lash Designer] é uma excelente professora, muito atenciosa e me ensinou tudo o que eu precisava para começar.',
-    avatar: 'https://via.placeholder.com/80?text=JS'
+    role: 'Aluna',
+    quote: 'O curso superou minhas expectativas! A Paloma é uma excelente professora, muito atenciosa e me ensinou tudo o que eu precisava para começar.',
+    avatar: cliente2
   },
   {
     name: 'Mariana Santos',
     role: 'Cliente',
     quote: 'Atendimento impecável e cílios maravilhosos! Saio sempre me sentindo mais linda e confiante. É visível o cuidado e profissionalismo.',
-    avatar: 'https://via.placeholder.com/80?text=MS'
+    avatar: cliente3
   },
   {
     name: 'Fernanda Lima',
-    role: 'Aluna (Volume Russo)',
-    quote: 'Já fiz outros cursos, mas a didática da [Nome da Lash Designer] é incomparável. Aprendi técnicas que me fizeram evoluir muito como profissional.',
-    avatar: 'https://via.placeholder.com/80?text=FL'
+    role: 'Aluna',
+    quote: 'Já fiz outros cursos, mas a didática da Paloma é incomparável. Aprendi técnicas que me fizeram evoluir muito como profissional.',
+    avatar: cliente4
   },
 ];
 

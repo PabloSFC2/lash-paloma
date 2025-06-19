@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import Button from '../ui/Button';
 
+// Importe a NOVA imagem da sua logo cortada aqui
+import logoPalomaCorreaTexto from '../../assets/images/logo-paloma-correa-texto.png'; // <<<< SUBSTITUA PELO NOME DO SEU NOVO ARQUIVO
+
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -11,8 +14,15 @@ const Header = () => {
   return (
     <header className="bg-white-pure shadow-md fixed w-full z-50">
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold text-golden-dark font-serif">
-          Paloma Correa
+        {/* Substituído o texto pelo novo logo da marca (mais focado no texto) */}
+        <div className="flex items-center">
+          <a href="#hero" className="text-2xl font-bold text-golden-dark font-serif">
+            <img 
+              src={logoPalomaCorreaTexto} 
+              alt="Paloma Correa Beauty and Academy" 
+              className="h-8 md:h-10 w-auto object-contain" // Ajustado h-8/h-10 e w-auto para priorizar largura
+            />
+          </a>
         </div>
 
         {/* Menu Desktop */}

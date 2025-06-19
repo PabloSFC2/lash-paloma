@@ -6,10 +6,10 @@ import Slider from 'react-slick'; // Importe o componente Slider do react-slick
 // Exemplo:
 import trabalho1 from '../../assets/images/trabalho1.jpg';
 import trabalho2 from '../../assets/images/trabalho2.jpg';
-import trabalho3 from '../../assets/images/trabalho1.jpg';
-import trabalho4 from '../../assets/images/trabalho1.jpg';
-import trabalho5 from '../../assets/images/trabalho1.jpg';
-import trabalho6 from '../../assets/images/trabalho1.jpg';
+import trabalho3 from '../../assets/images/trabalho3.jpg';
+import trabalho4 from '../../assets/images/trabalho4.jpg';
+import trabalho5 from '../../assets/images/trabalho5.jpg';
+import trabalho6 from '../../assets/images/trabalho6.jpg';
 // Adicione todas as imagens que você quer na galeria seguindo este padrão:
 // import NOME_DA_SUA_IMAGEM from '../../assets/images/NOME_DO_ARQUIVO.jpg';
 
@@ -19,10 +19,10 @@ import trabalho6 from '../../assets/images/trabalho1.jpg';
 const galleryImages = [
   { id: 1, src: trabalho1, alt: 'Exemplo de Cílios 1' },
   { id: 2, src: trabalho2, alt: 'Exemplo de Cílios 2' },
-  { id: 3, src: trabalho1, alt: 'Exemplo de Cílios 3' },
-  { id: 4, src: trabalho1, alt: 'Exemplo de Cílios 4' },
-  { id: 5, src: trabalho1, alt: 'Exemplo de Cílios 5' },
-  { id: 6, src: trabalho1, alt: 'Exemplo de Cílios 6' },
+  { id: 3, src: trabalho3, alt: 'Exemplo de Cílios 3' },
+  { id: 4, src: trabalho4, alt: 'Exemplo de Cílios 4' },
+  { id: 5, src: trabalho5, alt: 'Exemplo de Cílios 5' },
+  { id: 6, src: trabalho6, alt: 'Exemplo de Cílios 6' },
   // Continue adicionando seus objetos de imagem com id, src e alt
   // { id: 7, src: SUA_IMAGEM_7, alt: 'Descrição da Imagem 7' },
 ];
@@ -62,7 +62,7 @@ const Gallery = () => {
 
   return (
     <section id="gallery" className="container mx-auto px-6 py-16">
-      <SectionTitle>Nossos Trabalhos</SectionTitle>
+      <SectionTitle>Meus Trabalhos</SectionTitle>
       <Slider {...settings}> {/* O componente Slider recebe as configurações */}
         {galleryImages.map(image => (
           <div key={image.id} className="px-2"> {/* Adicionei padding horizontal para espaçamento entre os slides */}
