@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black opacity-40"></div>
 
       <div className="relative z-10 text-white-pure max-w-4xl mx-auto">
-        <h1 className="text-4xl md:text-6xl font-bold font-serif leading-tight mb-4 animate-fade-in-down">
+        <h1 className="text-4xl md:text-6xl font-bold font-sans leading-tight mb-4 animate-fade-in-down">
           Realce Seu Olhar: Extensões de Cílios que Transformam e Cursos que Capacitam
         </h1>
         <p className="text-lg md:text-xl mb-8 opacity-0 animate-fade-in delay-500">

@@ -16,7 +16,7 @@ const Header = () => {
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Substituído o texto pelo novo logo da marca (mais focado no texto) */}
         <div className="flex items-center">
-          <a href="#hero" className="text-2xl font-bold text-golden-dark font-serif">
+          <a href="#hero" className="text-2xl font-bold text-golden-dark font-sans">
             <img 
               src={logoPalomaCorreaTexto} 
               alt="Paloma Correa Beauty and Academy" 

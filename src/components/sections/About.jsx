@@ -24,7 +24,7 @@ const About = () => {
 
         {/* Bloco do Texto - Alinhamento e tipografia aprimorados */}
         <div className="md:w-1/2 text-center md:text-left">
-          <p className="text-xl leading-relaxed font-serif text-gray-text mb-6">
+          <p className="text-xl leading-relaxed font-sans text-gray-text mb-6">
             Olá! Sou <span className="font-bold text-golden-dark">Paloma Correa</span>, uma apaixonada por realçar olhares e elevar a autoestima de mulheres. Minha jornada no universo da extensão de cílios começou em <span className="font-bold text-golden-dark">2022</span>, e desde então, dedico-me a aprimorar minhas técnicas e oferecer o que há de melhor no mercado.
           </p>
           <p className="text-lg leading-relaxed text-gray-text mb-6">
